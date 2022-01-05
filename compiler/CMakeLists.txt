@@ -1,0 +1,19 @@
+add_executable(snowball_compiler
+    space.c
+    tokeniser.c
+    analyser.c
+    generator.c
+    driver.c
+    generator_csharp.c
+    generator_java.c
+    generator_js.c
+    generator_pascal.c
+    generator_python.c
+    generator_rust.c
+    generator_go.c
+    generator_ada.c
+
+    header.h
+    syswords.h
+    syswords2.h
+)

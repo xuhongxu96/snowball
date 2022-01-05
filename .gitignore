@@ -24,3 +24,5 @@
 /rust/target/
 /go/algorithms/
 /go/stemwords/algorithms.go
+.vs
+out

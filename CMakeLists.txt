@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(snowball)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_subdirectory(compiler)
+add_subdirectory(runtime)
+add_subdirectory(examples/en)
